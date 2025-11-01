@@ -254,6 +254,12 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'langchain':
+      // LangChain doesn't have a specific image yet, using Python as placeholder
+      return python;
+    case 'rag':
+      // RAG doesn't have a specific image yet, using Python as placeholder
+      return python;
     default:
       break;
   }
