@@ -1,52 +1,29 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Automated Poster Judging & Assignment System',
+        description: 'Engineered a three-phase automation pipeline to handle judge–poster assignment, scoring, and final ranking for Syracuse University’s ECS Research Day. Scraped faculty web pages using BeautifulSoup to collect research interests for NLP-based matching. Applied NLP techniques (BERT embeddings, cosine similarity, TF-IDF vectorization) to match judges with an 85%+ semantic relevance score.',
+        tools: ['Python', 'BeautifulSoup', 'BERT', 'TF-IDF', 'Cosine Similarity', 'NLP'],
+        role: 'Machine Learning Engineer',
         code: '',
         demo: '',
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'TourBuddy – AI Travel Chatbot',
+        description: 'Architected a full-stack travel chatbot application providing personalized destination recommendations using the OpenAI ChatGPT API. Designed a React.js single-page application with reusable components for conversation threads, search history, and recommendation cards. Implemented a Node.js + Express backend for API routing, integrated with MongoDB to store and retrieve user data in 200ms.',
+        tools: ['React.js', 'Node.js', 'Express', 'MongoDB', 'OpenAI API'],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Cotton Leaf Disease Detection System',
+        description: 'Developed a deep learning-based image classification system to detect and categorize 5+ types of cotton leaf diseases with 95% accuracy. Augmented training data with OpenCV transformations, increasing dataset size by 3x and boosting accuracy by 20%. Built and trained a Convolutional Neural Network in TensorFlow/Keras, tuning hyperparameters such as learning rate, filter size, and dropout for optimal accuracy.',
+        tools: ['TensorFlow', 'Keras', 'OpenCV', 'Python', 'CNN'],
+        role: 'Deep Learning Engineer',
         code: '',
-        role: 'Full Stack Developer',
         demo: '',
     },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
 ];
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },
