@@ -1,9 +1,11 @@
+"use client";
+
 import { skillsData } from "@/utils/data/skills";
 import { skillsImage } from "@/utils/skill-image";
 import Image from "next/image";
 import dynamic from 'next/dynamic';
 
-const Marquee = dynamic(() => import('react-fast-marquee'), { ssr: false });
+const Marquee = dynamic(() => import('react-fast-marquee').then(mod => mod.default), { ssr: false });
 
 function Skills() {
   return (
