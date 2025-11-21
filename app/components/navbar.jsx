@@ -1,16 +1,15 @@
 // @flow strict
 import Link from "next/link";
 
-
 function Navbar() {
   return (
-    <nav className="bg-transparent">
-      <div className="flex items-center justify-between py-5">
+    <nav className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4">
+      <div className="flex items-center justify-between px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] mx-auto glass-card rounded-full mt-2">
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
-            Narayan Anantha Krishnan
+            className="text-[#16f2b3] text-3xl font-bold tracking-wider">
+            Narayan
           </Link>
         </div>
 

@@ -23,7 +23,13 @@ module.exports = {
           "3xl": "5rem",
         },
       },
-
+      colors: {
+        'violet-500': '#8b5cf6',
+        'pink-500': '#ec4899',
+        'cyan-500': '#06b6d4',
+        'primary-bg': '#0d1224',
+        'card-bg': 'rgba(255, 255, 255, 0.05)',
+      },
       extend: {
         screens: {
           "4k": "1980px",
